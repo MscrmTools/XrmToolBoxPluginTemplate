@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmToolBoxPluginTemplate", "XrmToolBoxPluginTemplate\XrmToolBoxPluginTemplate.csproj", "{AC9456E3-2319-4070-92FD-0226B43182DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XrmToolBox_PluginTemplate_VSIX", "XrmToolBox_PluginTemplate_VSIX\XrmToolBox_PluginTemplate_VSIX.csproj", "{488A27C1-5BBA-4F05-91BB-53E9549A31A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9456E3-2319-4070-92FD-0226B43182DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9456E3-2319-4070-92FD-0226B43182DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9456E3-2319-4070-92FD-0226B43182DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9456E3-2319-4070-92FD-0226B43182DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{488A27C1-5BBA-4F05-91BB-53E9549A31A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{488A27C1-5BBA-4F05-91BB-53E9549A31A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{488A27C1-5BBA-4F05-91BB-53E9549A31A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{488A27C1-5BBA-4F05-91BB-53E9549A31A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06A1ADFA-E47A-40F7-9284-7DA581A09ACF}
+	EndGlobalSection
+EndGlobal
