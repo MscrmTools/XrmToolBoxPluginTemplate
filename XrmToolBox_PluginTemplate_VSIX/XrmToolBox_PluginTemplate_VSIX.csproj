@@ -44,53 +44,70 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2017.10.15.nupkg">
+    <Content Include="Packages\DockPanelSuite.3.0.4.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\microsoft.identitymodel.6.1.7600.16394.nupkg">
+    <Content Include="Packages\DockPanelSuite.ThemeVS2015.3.0.4.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\microsoft.identitymodel.clients.activedirectory.2.29.0.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.3.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\microsoft.web.xdt.2.1.1.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.3.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\nuget.core.2.12.0.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.3.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\XrmToolBoxPackage.1.2018.3.21.nupkg">
-      <VSIXSubPath>Packages</VSIXSubPath>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\dockpanelsuite.3.0.4.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.2.3.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\dockpanelsuite.themevs2015.3.0.4.nupkg">
+    <Content Include="Packages\Microsoft.IdentityModel.6.1.7600.16394.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.0.7.nupkg">
+    <Content Include="Packages\Microsoft.IdentityModel.Clients.ActiveDirectory.2.29.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.0.7.nupkg">
+    <Content Include="Packages\Microsoft.Web.Xdt.2.1.2.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.0.7.nupkg">
+    <Content Include="Packages\Newtonsoft.Json.11.0.2.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.0.7.nupkg">
+    <Content Include="Packages\NuGet.Core.2.14.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+    </Content>
+    <Content Include="Packages\mscrmtools.xrm.connection.1.2018.7.18.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\xrmtoolboxpackage.1.2018.7.26.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
