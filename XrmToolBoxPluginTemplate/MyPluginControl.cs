@@ -97,8 +97,11 @@ namespace $safeprojectname$
     {
         base.UpdateConnection(newService, detail, actionName, parameter);
 
-        mySettings.LastUsedOrganizationWebappUrl = detail.WebApplicationUrl;
-        LogInfo("Connection has changed to: {0}", detail.WebApplicationUrl);
+        if (mySettings != null && detail != null)
+        {
+            mySettings.LastUsedOrganizationWebappUrl = detail.WebApplicationUrl;
+            LogInfo("Connection has changed to: {0}", detail.WebApplicationUrl);
+        }
     }
 }
 }
