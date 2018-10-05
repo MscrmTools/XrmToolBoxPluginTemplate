@@ -102,10 +102,12 @@
     <Content Include="Packages\MscrmTools.Xrm.Connection.1.2018.7.19.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Packages</VSIXSubPath>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Packages\XrmToolBoxPackage.1.2018.7.28.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <VSIXSubPath>Packages</VSIXSubPath>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
