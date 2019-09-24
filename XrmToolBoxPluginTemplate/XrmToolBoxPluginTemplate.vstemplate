@@ -27,18 +27,20 @@
   </WizardExtension>
   <WizardData>
     <packages repository="extension" repositoryId="XrmToolBoxPluginProjectTemplate.TanguyTOUZARD.683b2d4a-0031-4cde-b4ec-8789e80246c5">
-      <package id="XrmToolBoxPackage" version="1.2018.7.28"  targetFramework="net462" />
-      <package id="Microsoft.CrmSdk.CoreAssemblies" version="9.0.2.3" targetFramework="net452" />
-      <package id="Microsoft.CrmSdk.Deployment" version="9.0.2.3" targetFramework="net452" />
-      <package id="Microsoft.CrmSdk.Workflow" version="9.0.2.3" targetFramework="net452" />
-      <package id="Microsoft.CrmSdk.XrmTooling.CoreAssembly" version="9.0.2.3" targetFramework="net452" />
+      <package id="XrmToolBoxPackage" version="1.2019.7.34" targetFramework="net462" />
+      <package id="DockPanelSuite" version="3.0.6" targetFramework="net462" />
+      <package id="DockPanelSuite.ThemeVS2015" version="3.0.6" targetFramework="net462" />
+      <package id="Microsoft.CrmSdk.CoreAssemblies" version="9.0.2.17" targetFramework="net462" />
+      <package id="Microsoft.CrmSdk.Deployment" version="9.0.2.17" targetFramework="net462" />
+      <package id="Microsoft.CrmSdk.Workflow" version="9.0.2.17" targetFramework="net462" />
+      <package id="Microsoft.CrmSdk.XrmTooling.CoreAssembly" version="9.0.2.27" targetFramework="net462" />
+      <package id="Microsoft.CrmSdk.XrmTooling.WpfControls" version="9.0.2.26" targetFramework="net462" />
       <package id="Microsoft.IdentityModel" version="6.1.7600.16394" targetFramework="net452" />
-      <package id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="2.29.0" targetFramework="net452" />
+      <package id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="2.29.0" targetFramework="net462" allowedVersions="[2,3)" />
       <package id="Microsoft.Web.Xdt" version="2.1.2" targetFramework="net452" />
-      <package id="MscrmTools.Xrm.Connection" version="1.2018.7.19" targetFramework="net462" />
+      <package id="MscrmTools.Xrm.Connection" version="1.2019.7.26" targetFramework="net462" />
+      <package id="Newtonsoft.Json" version="12.0.2" targetFramework="net462" />
       <package id="NuGet.Core" version="2.14.0" targetFramework="net462" />
-      <package id="DockPanelSuite" version="3.0.4" targetFramework="net462" />
-      <package id="DockPanelSuite.ThemeVS2015" version="3.0.4" targetFramework="net462" />
     </packages>
   </WizardData>
 </VSTemplate>
