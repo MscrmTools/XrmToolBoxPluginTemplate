@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -45,7 +45,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
     <Content Include="Packages\Microsoft.IdentityModel.6.1.7600.16394.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
@@ -61,50 +60,55 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.0.2.16.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>Packages</VSIXSubPath>
-    </Content>
     <Content Include="Packages\Microsoft.Web.Xdt.2.1.2.nupkg">
+
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2019.6.25.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <VSIXSubPath>Packages</VSIXSubPath>
-    </Content>
+
     <Content Include="Packages\Newtonsoft.Json.12.0.2.nupkg">
+
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
-    <Content Include="Packages\xrmtoolboxpackage.1.2019.6.33.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.17.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.12.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.17.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.12.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.17.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.12.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.2.27.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.0.2.16.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.0.2.26.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2019.7.26.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+      <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Packages\XrmToolBoxPackage.1.2019.7.34.nupkg">
+      <VSIXSubPath>Packages</VSIXSubPath>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
