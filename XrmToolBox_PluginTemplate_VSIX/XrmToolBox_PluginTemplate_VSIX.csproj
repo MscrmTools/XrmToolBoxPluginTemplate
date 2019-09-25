@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
@@ -61,18 +61,23 @@
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
     <Content Include="Packages\Microsoft.Web.Xdt.2.1.2.nupkg">
+
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
+
     <Content Include="Packages\Newtonsoft.Json.12.0.2.nupkg">
+
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
     </Content>
+
     <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.17.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <VSIXSubPath>Packages</VSIXSubPath>
+
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.17.nupkg">
