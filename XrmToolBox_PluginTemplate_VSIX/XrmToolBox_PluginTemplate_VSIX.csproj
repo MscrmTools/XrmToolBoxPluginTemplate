@@ -46,27 +46,43 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.23.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.24.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.23.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.24.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.23.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.24.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.IdentityModel.Clients.ActiveDirectory.5.2.6.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.42.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.37.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.42.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.37.nupkg">
+    <Content Include="Packages\Microsoft.IdentityModel.7.0.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.IdentityModel.Clients.ActiveDirectory.5.2.7.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.Web.Xdt.3.0.0.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2020.4.32.nupkg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\XrmToolBoxPackage.1.2020.4.38.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -88,27 +104,11 @@
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Packages\Microsoft.IdentityModel.6.1.7600.16394.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\Microsoft.Web.Xdt.2.1.1.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2020.2.30.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Packages\Newtonsoft.Json.12.0.3.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Packages\NuGet.Core.2.14.0.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\XrmToolBoxPackage.1.2020.2.37.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
