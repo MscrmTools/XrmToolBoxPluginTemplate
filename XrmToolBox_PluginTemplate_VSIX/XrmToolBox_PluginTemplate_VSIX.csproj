@@ -78,11 +78,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2020.4.32.nupkg">
+    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2020.5.33.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\XrmToolBoxPackage.1.2020.4.38.nupkg">
+    <Content Include="Packages\XrmToolBoxPackage.1.2020.5.39.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
