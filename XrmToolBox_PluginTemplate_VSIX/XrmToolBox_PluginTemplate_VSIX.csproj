@@ -82,7 +82,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\XrmToolBoxPackage.1.2020.5.39.nupkg">
+    <Content Include="Packages\xrmtoolboxpackage.1.2020.6.40.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
