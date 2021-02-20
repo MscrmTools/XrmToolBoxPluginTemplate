@@ -58,32 +58,25 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.29.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.32.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.29.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.32.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.29.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.32.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.64.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.68.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.64.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.68.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2020.12.37.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2021.2.40.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\XrmToolBoxPackage.1.2020.12.43.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="Packages\XrmToolBoxPackage.1.2021.2.45.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
