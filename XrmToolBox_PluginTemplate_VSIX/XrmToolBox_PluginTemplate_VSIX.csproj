@@ -46,10 +46,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <Content Include="Packages\Microsoft.IdentityModel.Clients.ActiveDirectory.5.2.8.nupkg">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Packages\Microsoft.Web.Xdt.3.1.0.nupkg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
@@ -58,25 +54,100 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.32.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.33.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.32.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.33.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.32.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.33.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.68.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.79.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.68.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.79.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2021.2.40.nupkg">
+    <Content Include="Packages\Microsoft.IdentityModel.Clients.ActiveDirectory.5.2.9.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\XrmToolBoxPackage.1.2021.2.45.nupkg">
+    <Content Include="Packages\Microsoft.NETCore.Platforms.1.1.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.NETCore.Targets.1.1.3.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.Rest.ClientRuntime.2.3.23.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2021.5.42.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Newtonsoft.Json.13.0.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Client.4.2.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Common.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Configuration.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.ContentModel.4.2.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Frameworks.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Packaging.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Packaging.Core.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Packaging.Core.Types.4.2.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Protocol.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Repositories.4.2.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.RuntimeModel.4.2.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\NuGet.Versioning.5.9.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Net.Http.4.3.4.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Private.Uri.4.3.2.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Security.Cryptography.Algorithms.4.3.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Security.Cryptography.Cng.5.0.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Security.Cryptography.Encoding.4.3.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Security.Cryptography.Pkcs.5.0.1.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Security.Cryptography.Primitives.4.3.0.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\System.Security.Cryptography.X509Certificates.4.3.2.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xrmtoolboxpackage.1.2021.5.47.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
@@ -94,14 +165,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Packages\jacobslusser.ScintillaNET.3.6.3.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\Newtonsoft.Json.12.0.3.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Packages\NuGet.Core.2.14.0.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="XrmToolBoxPluginProjectTemplate.TanguyTOUZARD.683b2d4a-0031-4cde-b4ec-8789e80246c5" Version="2.23" Language="en-US" Publisher="Tanguy TOUZARD" />
-        <DisplayName>XrmToolBox Plugin Project Template</DisplayName>
-        <Description xml:space="preserve">Develop a plugin for application XrmToolBox</Description>
+        <Identity Id="XrmToolBoxPluginProjectTemplate.TanguyTOUZARD.683b2d4a-0031-4cde-b4ec-8789e80246c5" Version="2.26" Language="en-US" Publisher="Tanguy TOUZARD" />
+        <DisplayName>XrmToolBox Tool Project Template</DisplayName>
+        <Description xml:space="preserve">Develop a tool for application XrmToolBox</Description>
         <MoreInfo>https://www.xrmtoolbox.com</MoreInfo>
         <Icon>__TemplateIcon.ico</Icon>
         <PreviewImage>__PreviewImage.png</PreviewImage>
