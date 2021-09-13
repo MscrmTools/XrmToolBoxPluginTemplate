@@ -54,21 +54,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.33.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.33.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.33.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.79.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.79.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Packages\Microsoft.IdentityModel.Clients.ActiveDirectory.5.2.9.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -79,9 +64,6 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Packages\Microsoft.Rest.ClientRuntime.2.3.23.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2021.5.42.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Packages\Newtonsoft.Json.13.0.1.nupkg">
@@ -147,7 +129,25 @@
     <Content Include="Packages\System.Security.Cryptography.X509Certificates.4.3.2.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\xrmtoolboxpackage.1.2021.5.47.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.42.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.34.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.42.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.0.88.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.WpfControls.9.1.0.88.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\mscrmtools.xrm.connection.1.2021.9.46.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xrmtoolboxpackage.1.2021.9.52.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
