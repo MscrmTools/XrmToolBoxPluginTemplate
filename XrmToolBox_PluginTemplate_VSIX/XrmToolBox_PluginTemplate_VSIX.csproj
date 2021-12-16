@@ -147,7 +147,10 @@
     <Content Include="Packages\mscrmtools.xrm.connection.1.2021.9.46.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\xrmtoolboxpackage.1.2021.9.52.nupkg">
+    <Content Include="Packages\Microsoft.Web.WebView2.1.0.1054.31.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xrmtoolboxpackage.1.2021.12.53.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
