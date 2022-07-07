@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="XrmToolBoxPluginProjectTemplate.TanguyTOUZARD.683b2d4a-0031-4cde-b4ec-8789e80246c5" Version="2.30" Language="en-US" Publisher="Tanguy TOUZARD" />
-        <DisplayName>XrmToolBox Tool Project Template</DisplayName>
-        <Description xml:space="preserve">Develop a tool for application XrmToolBox</Description>
-        <MoreInfo>https://www.xrmtoolbox.com</MoreInfo>
-        <Icon>__TemplateIcon.ico</Icon>
-        <PreviewImage>__PreviewImage.png</PreviewImage>
-        <Tags>XrmToolBox</Tags>
-    </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)">
-            <ProductArchitecture>amd64</ProductArchitecture>
-        </InstallationTarget>
-        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,17.0)">
-            <ProductArchitecture>x86</ProductArchitecture>
-        </InstallationTarget>
-        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
-            <ProductArchitecture>amd64</ProductArchitecture>
-        </InstallationTarget>
-        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro">
-            <ProductArchitecture>x86</ProductArchitecture>
-        </InstallationTarget>
-        <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Community">
-            <ProductArchitecture>x86</ProductArchitecture>
-        </InstallationTarget>
-        <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
-            <ProductArchitecture>amd64</ProductArchitecture>
-        </InstallationTarget>
-    </Installation>
-    <Dependencies>
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="XrmToolBoxPluginTemplate" d:TargetPath="|XrmToolBoxPluginTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.Net.Component.4.7.2.TargetingPack" Version="[16.10.31205.252,18.0)" DisplayName="Pack de ciblage .NET Framework 4.7.2" />
-    </Prerequisites>
+  <Metadata>
+    <Identity Id="XrmToolBoxPluginProjectTemplate.TanguyTOUZARD.683b2d4a-0031-4cde-b4ec-8789e80246c5" Version="2.32" Language="en-US" Publisher="Tanguy TOUZARD" />
+    <DisplayName>XrmToolBox Tool Project Template</DisplayName>
+    <Description xml:space="preserve">Develop a tool for application XrmToolBox</Description>
+    <MoreInfo>https://www.xrmtoolbox.com</MoreInfo>
+    <Icon>__TemplateIcon.ico</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <Tags>XrmToolBox</Tags>
+  </Metadata>
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[17.0,18.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[16.0,17.0)">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Pro">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[16.0,17.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>x86</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Community">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+  <Dependencies>
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="Project" d:ProjectName="XrmToolBoxPluginTemplate" d:TargetPath="|XrmToolBoxPluginTemplate;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.Net.Component.4.7.2.TargetingPack" Version="[16.10.31205.252,18.0)" DisplayName="Pack de ciblage .NET Framework 4.7.2" />
+  </Prerequisites>
 </PackageManifest>
