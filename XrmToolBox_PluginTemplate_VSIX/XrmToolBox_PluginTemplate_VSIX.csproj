@@ -132,15 +132,6 @@
     <Content Include="Packages\Microsoft.CrmSdk.Deployment.9.0.2.34.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2022.7.53.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.45.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.45.nupkg">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Packages\Microsoft.CrmSdk.XrmTooling.CoreAssembly.9.1.1.1.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -150,7 +141,16 @@
     <Content Include="Packages\Microsoft.Web.WebView2.1.0.1343.22.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Packages\xrmtoolboxpackage.1.2022.9.57.nupkg">
+    <Content Include="Packages\Microsoft.CrmSdk.CoreAssemblies.9.0.2.46.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\Microsoft.CrmSdk.Workflow.9.0.2.46.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\MscrmTools.Xrm.Connection.1.2022.10.54.nupkg">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Packages\xrmtoolboxpackage.1.2022.10.58.nupkg">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
