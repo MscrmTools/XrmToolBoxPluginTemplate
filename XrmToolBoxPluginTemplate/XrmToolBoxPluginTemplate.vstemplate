@@ -5,7 +5,7 @@
     <Description>Develop a tool for XrmToolBox application</Description>
     <Icon>__TemplateIcon.ico</Icon>
     <ProjectType>CSharp</ProjectType>
-    <RequiredFrameworkVersion>4.8</RequiredFrameworkVersion>
+    <RequiredFrameworkVersion>4.7</RequiredFrameworkVersion>
     <SortOrder>1000</SortOrder>
     <TemplateID>2d5400f8-fc8c-4beb-bcb3-fc6758e1cb13</TemplateID>
     <CreateNewFolder>true</CreateNewFolder>
